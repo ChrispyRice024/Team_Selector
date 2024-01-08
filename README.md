@@ -27,19 +27,38 @@
 
 
 ## Installation
-    There is no need for installation, it is a web app.
+ 1. **Clone the repository:**
+
+    ```bash
+        git clone https://github.com/ChrispyRice024/Team_Selector.git
+        cd Team_Selector
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+        npm install
+    ```
+
+3. **Configure environment variables:**
+    ```bash
+        Copy the `.env.example` file to `.env` and update the variables as needed.
+    ```
+
+4. **Build the project:**
+
+    ```bash
+    npm run build
+    ```
+
+5. **Run the application:**
+
+    ```bash
+    npm start
+    ```
 
 ## Usage
     Use the "Create a Team" page to add a team member to your team. Then, go to the "My Teams" tab to view the team members you have created.
 
-## Contributing
-    N/A
-
 ## License
     MIT
-
-## Support
-    N/A
-
-## Acknowledgments
-    N/A
